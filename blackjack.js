@@ -178,23 +178,23 @@ var finalResultCheck = function () {
 	var dS = dealerHand.score();
 	if (pS > 21) {
 		if (dS > 21) {
-			return "Tide";
+			return "Hoà";
 		}
 		else {
-			return "Bust";
+			return "Quắc";
 		}
 	}
 	else if (dS > 21) {
-		return "Win";
+		return "Thắng";
 	}
 	else if (pS > dS) {
-		return "Win";
+		return "Thắng";
 	}
 	else if (pS === dS) {
-		return "Tide";
+		return "Hoà";
 	}
 	else {
-		return "Bust";
+		return "Quắc";
 	}
 };
 
@@ -208,14 +208,14 @@ var firstResultCheck = function () {
 	dS = dealerHand.score();
 	if (pS > 21) {
 		if (dS > 21) {
-			return "TideOver";
+			return "Hoà";
 		}
 		else {
-			return "Bust";
+			return "Quắc";
 		}
 	}
 	else if (dS > 21) {
-		return "Win";
+		return "Thắng";
 	}
 	else if (pS === 21) {
 		return "BJ";
