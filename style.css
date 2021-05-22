@@ -131,13 +131,13 @@ header{
 .results li{
     position: relative;
     display: block;
-    width: 30px;
+    width: 90px;
     float: left;
 }
 
 .results img{
     /*width: 10%;*/
-    height: 90px;
+    height: 180px;
     display: block;
 }
 
