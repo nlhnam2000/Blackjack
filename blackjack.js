@@ -218,7 +218,7 @@ var firstResultCheck = function () {
 		return "Thắng";
 	}
 	else if (pS === 21) {
-		return "BJ";
+		return "21";
 	}
 	else {
 		return pS;
